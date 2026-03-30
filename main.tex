@@ -1,0 +1,78 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LaTeX template Bachelor thesis Econometrics & OR %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt, a4paper]{article}  % 11pt: text size
+\usepackage{graphicx}
+\usepackage[textwidth=14cm, vmargin=3cm]{geometry}  % ~66 chars/line
+\usepackage[T1]{fontenc}
+%\usepackage{mathpazo}          % Font
+%\usepackage{libertine}         % Font
+%\usepackage{kpfonts}           % Font
+%\usepackage{ebgaramond}        % Font
+\usepackage{stix2}              % Font
+\usepackage{microtype}         % Improves spacing and justification
+\linespread{1.25}              % 125% line spacing
+\usepackage{amsmath}
+\usepackage[round]{natbib}
+\usepackage{hyperref}
+
+\begin{document}
+\begin{titlepage}
+  \centering
+  \includegraphics{figures/logos/TilbUni_logo_bb_cmykU}\\
+  \hrulefill%
+  \vfill%
+  \textbf{\Large Estimating Customer Lifetime Value in an Emerging Subscription Model: An Econometric Analysis of MarleenKookt}\\
+  \vfill%
+  by\\[\baselineskip]
+  {\large Jeroen van der Wielen (SNR: 2098855)}\\
+  \vfill%
+  A thesis submitted in partial fulfillment of the requirements
+  for the degree of\\
+  Bachelor in Econometrics and Operations Research\\[\baselineskip]
+  Tilburg School of Economics and Management\\
+  Tilburg University
+  \vfill%
+  Supervised by: prof. dr. J.H. Abbring
+  \vfill%
+  Date: \today
+\end{titlepage}
+
+\section*{Technology Statement}
+\input{sections/0_technology-statement}
+
+\newpage
+
+\section*{Abstract}
+\input{sections/0_abstract}
+
+\newpage
+
+\tableofcontents{}
+
+\newpage
+
+\section{Introduction}
+\label{cha:introduction}
+\input{sections/1_introduction}
+
+\newpage
+
+\section{Preliminaries}
+\label{cha:preliminaries}
+\input{sections/2_preliminaries}
+
+\newpage
+
+\bibliographystyle{apalike}
+\bibliography{bibliography}
+
+\newpage
+
+\section{Extra Tables and Figures}
+\label{cha:tables}
+Here you can put your appendices.
+
+
+\end{document}
